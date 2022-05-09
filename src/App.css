@@ -1,3 +1,24 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url("./images/background.png");
+  color: white;
+  display: flex;
+}
+
+.mission-card {
+  display: flex;
+  border: white 2px;
+  flex-wrap: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  flex-basis: 60%;
+}
+
+.missions {
+  flex: 40%;
+  outline: 2px white;
+}

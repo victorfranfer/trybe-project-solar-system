@@ -10,7 +10,7 @@ body {
 
 .mission-card {
   display: flex;
-  border: white 2px;
+  border: white;
   flex-wrap: row wrap;
   justify-content: flex-start;
   align-items: center;
